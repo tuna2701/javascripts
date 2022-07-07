@@ -1,5 +1,5 @@
-function showMessage(message) {
-    console.log(message);
-}
+//Tìm biến nhanh trong Javascript (hạn chế dùng jquery)
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
 
-showMessage("Hi anh em F8!");
+$('.title').innerText =  "Text";
